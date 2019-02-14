@@ -25,13 +25,19 @@ body {
 
 header {
   background-color: #e2e2e2;
+}
+
+h1, nav {
   text-align: center;
+}
+
+.nav {
+  padding-left: 0;
 }
 
 .nav li {
   display: inline-block;
   list-style-type: none;
-  text-align: left;
 }
 
 .nav a {
@@ -42,4 +48,21 @@ header {
 .nav a:hover {
   background-color: #0074d9;
   color: #fff;
+}
+
+li .current {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    text-align: left;
+  }
+
+  nav {
+    text-align: right;
+  }
+
 }
