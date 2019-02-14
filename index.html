@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Modular navigation</title>
+  <title>Modular nav</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
@@ -10,19 +10,19 @@
 </head>
 <body>
 
-  <header class="grid">
-    <div class="unit">
+  <header class="grid grid-middle">
+    <div class="unit xs-1 s-1 m-1 l-1">
       <div class="grid">
-        <div class="unit">
-          <h1>Solar System</h1>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2">
+          <h1 class="peta pad-t-1-2">Solar System</h1>
         </div>
 
-        <div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2">
           <nav>
-            <ul class="nav">
-              <li><a href="#">Planets</a></li>
-              <li><a href="#">Moons</a></li>
-              <li><a href="#">Exploration</a></li>
+            <ul class="nav push-1-4">
+              <li class="giga island-1-2"><a class="current" href="#">Planets</a></li>
+              <li class="giga island-1-2"><a href="#">Moons</a></li>
+              <li class="giga island-1-2"><a href="#">Exploration</a></li>
             </ul>
           </nav>
         </div>
